@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p{
+	text-align: justify;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	min-height: 20vh;
+	background-color: ;
+	color: black;
+}
+
+
+.main{
+	text-align: center;
+	display: inline;
+	position: relative;
+}
+.img img{
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	position: absolute;
+	left:0;
+	margin-top: 5vh;
+	margin-left: 2em;
+	background-color: #057ec3;
+	z-index: 3;
+
+}
+.main h1{
+	text-align: center;
+	display: inline;
+	color: #26efba;
+	text-shadow: 2px 2px #212121;
+
+}
+.main h3{
+	text-align: center;
+	color: #EFEFEF;
+	font-family: 'Londrina Solid', cursive;
+}
+.menu nav{
+	width:100%;
+	z-index: 1;
+	padding-left: 10rem;
+}
+
+.show_text marquee{
+	color: white;
+	background-color: black;
+	padding-top: 0.3em;
+	padding-bottom: 0.15em;
+	cursor: pointer;
+}
+.carousel-item img{
+	width:100%;
+	height: 75vh;
+}
+.admission{
+	background-color: #39c588;
+	padding: 1rem 2em;
+}
+.admission div div h2{
+	color: #EFEFEF;
+	padding-left: 2em;
+	padding-top: 0.4em;
+}
+.admission-btn{
+	border: none;
+	padding: 1em 3em;
+	color: red;
+	border-radius: 15px;
+	box-shadow: 3px 5px #413e40;
+}
+.about{
+	border: 1px solid #212121;
+	border-radius: 10px;
+	position:relative;
+	min-height: 90vh;
+	background: #efefef;
+	z-index: 3;
+}
+.about h4{
+	color: red;
+	font-weight: bold;
+	padding:1em;
+	border-bottom: 1px dotted #212121;
+}
+.about p{
+	background: #EFEFEF;
+	margin-bottom:1em;
+}
+.wave{
+	position:absolute;
+	margin-top: 1em;
+	height: 30vh;
+	width: 100%;
+	bottom: 0;
+	z-index: 2;
+	
+	background-position: center;
+	background-size: cover;
+	margin-left: -0.6em;
+	margin-top: 1em;
+	overflow: hidden;
+}
+
+
+.leadership{
+	padding: 1em;
+	background-attachment: fixed;
+	background-image: url(" "); /* The image used */
+  	background-color: white; /* Used if the image is unavailable */
+  	 /* You must set a specified height */
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+.leadership div{
+	min-height: 50vh;
+	border-radius: 1em;
+	/* box-shadow: 10px 10px 8px 10px #888888;*/
+	background:#EFEFEF;
+	box-sizing: border-box;
+	margin:auto;
+}
+.leadership div img{
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+}
+.leadership div  p{
+	text-align: center;
+}
+.leadership div button{
+	padding:1em;
+	border:none;
+	color: #EFEFEF;
+	font-weight:bold;
+	margin-bottom: 2em;
+	border-radius: 1em;
+	 background-image: linear-gradient(to right, #3f2ceb, #1ebef2);
+}
+.leadership div button:hover{
+	 background-image: linear-gradient(to right, #1dbef2, #3f2ceb);
+	 box-shadow: 4px 5px #888888;
+
+}
+.result{
+	position: relative;
+	min-height: 95vh;
+}
+.result > div{
+	border: 1px solid black;
+	padding:0;
+}
+.carousel-inner > div > img{
+	height: 95vh;
+}
+
+.footer_list li a button{
+			width:70%;
+		}
+		.footer_list li a button:hover{
+			background:darkorange;
+		}
+		.footer_list1 li a{
+			font-size:17px;
+			color:#BAC5C6;
+		}
+		.footer_list1 li a:hover{
+			text-decoration: none;
+			transition: .5s;
+			border-left: 2px solid #808080;
+			padding-left: 5px;
+			color:#808080;
+		}
+		#social_menu ul li{
+			margin-top:20px; 
+			list-style:none;
+			display:inline-block;
+			font-size:20px;
+			color:white;
+		}
+		#social_menu ul li:hover{
+			transition: .5s;
+			transform: rotate(360deg);
+			background:white;
+		}
+		.social_back{
+            height:30px;
+            width:30px;
+            padding-left:6px;
+            border-radius:20%;
+        }
+        .social_back a{
+    	    color: white;
+        }
+        .overview{
+        	padding: 1em;
+        	background: #022147;
+        }
+        #ewu_template:hover{
+  			transition: .5s;
+  			transform: scaleY(1.2);
+  		}
+
+@media(max-width: 700px){
+	.img img{
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		position: absolute;
+		left:0;
+		margin-top: .2vh;		
+		background-color: #057ec3;
+		z-index: 3;
+		margin-left:0px;
+
+	}
+	.main h1{
+		padding-left: 1em;
+		font-size: 1.4em;
+	}
+	.main h3{
+		margin-top: 1rem;
+		font-size:1em;
+	}
+	.admission div div h2{
+		padding-left: .2em;
+		padding-bottom:.5em;
+	}
+	.about{
+		margin-bottom:1em;
+
+	}
+	.menu nav{
+		padding-left: 2em;
+	}
+	.leadership div{
+		margin-bottom: 1em;
+	}
+	.result{
+		position: relative;
+		min-height: 50vh;
+	}
+
+}
+
+
